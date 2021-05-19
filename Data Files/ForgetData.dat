@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>LoginInternalDataTest</name>
+   <name>ForgetData</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
-   <dataFileGUID>9f9e8ea9-5b87-426c-ba5e-cdb967661d24</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
-   <driver>InternalData</driver>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>21a8ac2f-e538-4cf1-ad6c-508994cd9a16</dataFileGUID>
+   <dataSourceUrl>D:\graduating-project\advanced-subject-in-technology-software\katalon\DataTest\ForgetPasswordDataTest.csv</dataSourceUrl>
+   <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>LoginDataTest</name>
+   <name>LoginInternalTestData</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>b95eb1e3-349c-4d1c-8e62-4ea43868e635</dataFileGUID>
-   <dataSourceUrl>D:\graduating-project\advanced-subject-in-technology-software\katalon\DataTest\LoginDataTest.csv</dataSourceUrl>
-   <driver>CSV</driver>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>35be80c3-fee6-459d-ac15-521dceed061d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>

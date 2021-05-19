@@ -14,25 +14,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+import io.netty.util.concurrent.FailedFuture
+
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com/')
 
-WebUI.setText(findTestObject('Login_Mattermost_OR/input_All team communication in one place, _dcc84b'), Username)
+WebUI.click(findTestObject('Object Repository/ForgetPassword_Mattermost_OR/span_I forgot my password'))
 
-WebUI.setText(findTestObject('Login_Mattermost_OR/input_All team communication in one place, _a3edc6'), Password)
+WebUI.setText(findTestObject('Object Repository/ForgetPassword_Mattermost_OR/input_To reset your password, enter the email address you used to sign up_email'), "ngoctin040999@gmail.com")
 
-WebUI.click(findTestObject('Login_Mattermost_OR/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/ForgetPassword_Mattermost_OR/button_Reset my password'))
 
-if (Username != 'ngoctin040999@gmail.com') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/Login_Mattermost_OR/label_Enter a valid email or username andor password'), 0)
-} else {
-	Thread.sleep(3000)
-    WebUI.verifyElementPresent(findTestObject('Object Repository/Login_Mattermost_OR/h1_fsdfsdf'), 0)
-}
+WebUI.verifyElementPresent(findTestObject('Object Repository/ForgetPassword_Mattermost_OR/label_Failed to send password reset email successfully'), 1000)
 
 WebUI.closeBrowser()
-

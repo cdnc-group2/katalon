@@ -38,4 +38,25 @@
          <variableId>5e047d98-47ff-4374-9c61-5bb1560cbaa2</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>dcc3ac81-e37c-4373-a563-79b9875500e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ForgetPassword</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ee3fc5bd-1d22-4721-98ed-12c6778fd171</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ForgetData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ee3fc5bd-1d22-4721-98ed-12c6778fd171</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>578e14b5-23c9-4cb0-ac9a-52d1cf9d8812</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
