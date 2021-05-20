@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "E58CE568A22A8FE4AE730D55538A537E",
+  "keywordClasses": [
+    {
+      "name": "chatMessagePackage.ChatMessageDataTest",
+      "keywordMethods": [
+        {
+          "name": "findChatTestMessage",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>b531ec90-efb9-4aa9-a047-6985ce991543</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -41,7 +41,7 @@
    <testCaseLink>
       <guid>dcc3ac81-e37c-4373-a563-79b9875500e7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ForgetPassword</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -50,7 +50,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ForgetData</testDataId>
+         <testDataId>Data Files/ForgetDataTest</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>ee3fc5bd-1d22-4721-98ed-12c6778fd171</testDataLinkId>
@@ -58,5 +58,50 @@
          <value>Email</value>
          <variableId>578e14b5-23c9-4cb0-ac9a-52d1cf9d8812</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9ed8960-f301-43d7-ac19-90cfb59ce041</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CreateRoom</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>93d73a1a-ba33-430b-871e-8a20a6300805</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CreateChannelDataTest</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>93d73a1a-ba33-430b-871e-8a20a6300805</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ChannelName</value>
+         <variableId>23dd646c-e493-43ea-bcaa-29fc55049445</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>93d73a1a-ba33-430b-871e-8a20a6300805</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Purpose</value>
+         <variableId>a06c719d-2449-4d4d-8f4b-b505c8215537</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>93d73a1a-ba33-430b-871e-8a20a6300805</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
+         <variableId>1c5562fd-0818-4174-aacf-c8794b855d4d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>93d73a1a-ba33-430b-871e-8a20a6300805</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Type</value>
+         <variableId>2ce80c14-5744-4af7-abbd-6cf677fbb2ed</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>82b43c29-fe15-429e-9c3b-f365c3eadf57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

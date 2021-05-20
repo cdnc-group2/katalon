@@ -1,0 +1,13 @@
+Type,ChannelName,Purpose,Description
+Public,Test 123,Data test 1,Test Description
+Private,Test 456,Data test 1,Test Description
+Private,Test 4474,Data test 1,Test Description
+Pubic,Test 111223,Data test 2,Test Description
+Pubic,Test 111224,Data test 3,Test Description
+Pubic,Test 111225,Data test 4,Test Description
+Pubic,Test 111227,Data test 5,Test Description
+Pubic,Test 111227,Data test 6,Test Description
+Private,Test 111227,Data test 7,Test Description
+Private,Test 111228,Data test 8,Test Description
+Private,Test 111229,Data test 9,Test Description
+Private,Test 111230,Data test 10,Test Description

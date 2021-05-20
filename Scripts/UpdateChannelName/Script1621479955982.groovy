@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com')
+WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com/')
 
 WebUI.setText(findTestObject('Object Repository/Login_Mattermost_OR/input_All team communication in one place, _dcc84b'), 'ngoctin040999@gmail.com')
 
@@ -27,39 +27,31 @@ WebUI.setText(findTestObject('Object Repository/Login_Mattermost_OR/input_All te
 
 WebUI.click(findTestObject('Object Repository/Login_Mattermost_OR/span_Sign in'))
 
-WebUI.click(findTestObject('CreateRoom_Mattermose_OR/span_'));
+Thread.sleep(2000)
 
-WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/span_New Channel'), 0)
+WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Test 123'))
 
-switch (Type) {
-	case 'Public':
-		WebUI.click(findTestObject('CreateRoom_Mattermose_OR/input_Type_channelType'))
-		break;
-	case 'Private':
-		WebUI.click(findTestObject('CreateRoom_Mattermose_OR/input_- Anyone can join this channel_channelType'))
-		break;
-}
+WebUI.verifyElementPresent(findTestObject('Object Repository/UpdateChannel/span_Edit Header for Test 123'), 0, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('CreateRoom_Mattermose_OR/input_Name_newChannelName'), ChannelName)
+WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Test 123_channelHeaderDropdownIcon'))
 
-WebUI.setText(findTestObject('CreateRoom_Mattermose_OR/textarea_(optional)_newChannelPurpose'), Purpose)
+WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Rename Channel'))
 
-WebUI.setText(findTestObject('CreateRoom_Mattermose_OR/textarea_(optional)_newChannelHeader'), Description)
+WebUI.verifyElementPresent(findTestObject('Object Repository/UpdateChannel/span_Rename Channel'), 0)
 
-WebUI.click(findTestObject('CreateRoom_Mattermose_OR/button_Create Channel'))
+WebUI.setText(findTestObject('Object Repository/UpdateChannel/input_Display Name_display_name'), 'Test 77777')
 
-if (WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/p_A channel with that name already exists on the same team'), 0, FailureHandling.OPTIONAL)) {
+WebUI.setText(findTestObject('Object Repository/UpdateChannel/input_httpscd.comfsdfsdfchannels_channel_name'), 'test-77777')
+
+WebUI.click(findTestObject('Object Repository/UpdateChannel/button_Save'))
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/UpdateChannel/label_Unable to update the channel'), 0, FailureHandling.OPTIONAL)) {
 	WebUI.closeBrowser()
 } else {
-	switch (Type) {
-		case 'Public':
-			WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/a_test room'), 0)
-			break;
-		case 'Private':
-			WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/a_test room 1'), 0)
-			break;
+	if (WebUI.getText(findTestObject('Object Repository/UpdateChannel/span_Test 123')) == 'Test 77777') {
+		WebUI.closeBrowser()
 	}
-	WebUI.closeBrowser()
 }
+
 
 

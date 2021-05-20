@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>be93c4aa-9cb8-414a-8667-e680a4feb399</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ce80c14-5744-4af7-abbd-6cf677fbb2ed</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>23dd646c-e493-43ea-bcaa-29fc55049445</id>
+      <masked>false</masked>
+      <name>ChannelName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a06c719d-2449-4d4d-8f4b-b505c8215537</id>
+      <masked>false</masked>
+      <name>Purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1c5562fd-0818-4174-aacf-c8794b855d4d</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
 </TestCaseEntity>
