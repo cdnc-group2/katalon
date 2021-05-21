@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>SwitchChannelsDataTest</name>
+   <name>CreateTeamInternalDataTest</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>8f940cfa-7a0d-42e5-ad80-1f75223ec436</dataFileGUID>
+   <dataFileGUID>f3575fff-4ab3-4dc3-b7c4-ee3a3d60bd47</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Test+111224</data>
-   <data>Test+111225</data>
-   <data>Test+112121</data>
-   <data>Test+123543</data>
+   <data>team1 team1</data>
+   <data>team2 team2</data>
+   <data>team3 team3</data>
+   <data>team4 team4</data>
+   <data>team5 team5</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>channel</name>
-      <size>4</size>
+      <name>name</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>link</name>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
