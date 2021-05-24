@@ -19,33 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://cdnc-group2.herokuapp.com/')
 
-WebUI.setText(findTestObject('Login/input_Email'), 'ngoctin040999@gmail.com')
+WebUI.click(findTestObject('Register/a_Create one now'))
 
-WebUI.setText(findTestObject('Login/input_Password'), 'ngoctin1')
+WebUI.setText(findTestObject('Register/input_concat(What, , s your email address)_email'), 'test@gmail.com')
 
-WebUI.click(findTestObject('Login/button_Sign in'))
+WebUI.setText(findTestObject('Register/input_Choose your username_name'), 'test')
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Register/input_Choose your password_password'), '123456')
 
-WebUI.click(findTestObject('UpdatePassword/button_Option'))
-
-WebUI.click(findTestObject('UpdatePassword/button_Account Settings'))
-
-WebUI.click(findTestObject('UpdatePassword/button_Security'))
-
-WebUI.click(findTestObject('UpdatePassword/button_Edit'))
-
-WebUI.setText(findTestObject('UpdatePassword/input_Current Password_currentPassword'), 'ngoctin1')
-
-WebUI.setText(findTestObject('UpdatePassword/input_New Password_newPassword'), 'ngoctin2')
-
-WebUI.setText(findTestObject('UpdatePassword/input_Retype New Password_confirmPassword'), 'ngoctin2')
-
-WebUI.click(findTestObject('UpdatePassword/button_Save'))
+WebUI.click(findTestObject('Register/button_Create Account'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('UpdatePassword/h4_Password'), 'Password')
+WebUI.verifyElementVisible(findTestObject('Register/h1_Mattermost'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
