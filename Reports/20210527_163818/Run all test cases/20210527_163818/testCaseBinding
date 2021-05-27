@@ -1,0 +1,41 @@
+{"testCaseName":"Test Cases/Login - Iteration 1","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027ngoctin040999@gmail.com\u0027","Password":"\u0027ngoctin1\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 2","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027ngoctin040999\u0027","Password":"\u0027ngoctin1\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 3","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027testing123@gmail.com\u0027","Password":"\u0027test12\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 4","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027admin\u0027","Password":"\u0027admin\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 5","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027admin@outlook.com\u0027","Password":"\u0027123456789\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 6","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027admin@outlook.com\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 1","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027ngoctin040999@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 2","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027test123@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 3","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027test456\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 4","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027mail@example.com\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 5","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027mailadmin\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 6","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027token_test\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 1","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Public\u0027","ChannelName":"\u0027Test 123\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 1\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 2","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Private\u0027","ChannelName":"\u0027Test 456\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 1\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 3","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Private\u0027","ChannelName":"\u0027Test 4474\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 1\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 4","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Pubic\u0027","ChannelName":"\u0027Test 111223\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 2\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 5","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Pubic\u0027","ChannelName":"\u0027Test 111224\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 3\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 6","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Pubic\u0027","ChannelName":"\u0027Test 111225\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 4\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 7","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Pubic\u0027","ChannelName":"\u0027Test 111227\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 5\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 8","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Pubic\u0027","ChannelName":"\u0027Test 111227\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 6\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 9","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Private\u0027","ChannelName":"\u0027Test 111227\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 7\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 10","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Private\u0027","ChannelName":"\u0027Test 111228\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 8\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 11","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Private\u0027","ChannelName":"\u0027Test 111229\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 9\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 12","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Private\u0027","ChannelName":"\u0027Test 111230\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 10\u0027"}}
+{"testCaseName":"Test Cases/Chat","testCaseId":"Test Cases/Chat"}
+{"testCaseName":"Test Cases/SwitchChannels","testCaseId":"Test Cases/SwitchChannels"}
+{"testCaseName":"Test Cases/UnpinMessage","testCaseId":"Test Cases/UnpinMessage"}
+{"testCaseName":"Test Cases/UpdateChannelName","testCaseId":"Test Cases/UpdateChannelName"}
+{"testCaseName":"Test Cases/UpdateDescriptionChannel","testCaseId":"Test Cases/UpdateDescriptionChannel"}
+{"testCaseName":"Test Cases/UpdateFullNameAccount","testCaseId":"Test Cases/UpdateFullNameAccount"}
+{"testCaseName":"Test Cases/UpdateMemberRole","testCaseId":"Test Cases/UpdateMemberRole"}
+{"testCaseName":"Test Cases/UpdatePurposeChannel","testCaseId":"Test Cases/UpdatePurposeChannel"}
+{"testCaseName":"Test Cases/UpdateTeamDescription","testCaseId":"Test Cases/UpdateTeamDescription"}
+{"testCaseName":"Test Cases/UpdateTeamName","testCaseId":"Test Cases/UpdateTeamName"}
+{"testCaseName":"Test Cases/UpdateUsernameAccount","testCaseId":"Test Cases/UpdateUsernameAccount"}
+{"testCaseName":"Test Cases/WriteDirectMessage","testCaseId":"Test Cases/WriteDirectMessage"}
+{"testCaseName":"Test Cases/SearchInChannelWithTextHaveSpace","testCaseId":"Test Cases/SearchInChannelWithTextHaveSpace"}
+{"testCaseName":"Test Cases/SearchInChannelWithSpecialChar","testCaseId":"Test Cases/SearchInChannelWithSpecialChar"}
+{"testCaseName":"Test Cases/SearchInChannelWithNormalText","testCaseId":"Test Cases/SearchInChannelWithNormalText"}
+{"testCaseName":"Test Cases/SearchInChannelWithMentionText","testCaseId":"Test Cases/SearchInChannelWithMentionText"}
+{"testCaseName":"Test Cases/SearchInChannelWithFilterKey","testCaseId":"Test Cases/SearchInChannelWithFilterKey"}

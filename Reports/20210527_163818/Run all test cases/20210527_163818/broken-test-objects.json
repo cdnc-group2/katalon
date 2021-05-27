@@ -1,0 +1,94 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Chat_Mattermose_OR/Page_Town Square - TOKEN Mattermost/span_Test 77777",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_test-77777\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Test 111223\u0027])[1]/preceding::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/Chat_Mattermose_OR/Page_Town Square - TOKEN Mattermost/span_Test 77777_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test 77777",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_test-77777\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Test 111223\u0027])[1]/preceding::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/DeleteMessage_OR/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test 77777_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/div_TO",
+      "brokenLocator": "//a[@id\u003d\u0027fsdfsdfTeamButton\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/div_TO_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "g \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Edit",
+      "brokenLocator": "//button[@id\u003d\u0027usernameEdit\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div/div/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Edit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_",
+      "brokenLocator": "//div[@id\u003d\u0027accountSettingsHeader\u0027]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027addDirectChannel\u0027]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span__idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN Mattermost/div_TO",
+      "brokenLocator": "//a[@id\u003d\u0027fsdfsdfTeamButton\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/Page_Town Square - TOKEN Mattermost/div_TO_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_test\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027+\u0027])[2]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Test - TOKEN_UPDATED Mattermost/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Test\u0027])[3]/following::*[name()\u003d\u0027svg\u0027][3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Drop a file to upload it.\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210527_163818/Run all test cases/20210527_163818/Object Repository/Page_Test - TOKEN_UPDATED Mattermost/svg_neighbor.png"
+    }
+  ]
+}

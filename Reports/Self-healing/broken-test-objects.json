@@ -1,0 +1,294 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ForgetPassword_Mattermost_OR/span_I forgot my password",
+      "brokenLocator": "//div[@id\u003d\u0027login_forgot\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ForgetPassword_Mattermost_OR/span_I forgot my password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login_Mattermost_OR/input_All team communication in one place, _dcc84b",
+      "brokenLocator": "//input[@id\u003d\u0027loginId\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027login_section\u0027]/div/div[2]/div/form/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login_Mattermost_OR/input_All team communication in one place, _dcc84b_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UpdateChannel/span_Rename Channel",
+      "brokenLocator": "//h1[@id\u003d\u0027renameChannelModalLabel\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Rename Channel\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UpdateChannel/span_Rename Channel_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UpdateChannel/button_Save",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[11]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UpdateChannel/button_Save_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UpdateChannel/span_Test 123",
+      "brokenLocator": "//*[(text() \u003d \u0027Test 147\u0027 or . \u003d \u0027Test 147\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//strong[@id\u003d\u0027channelHeaderTitle\u0027]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UpdateChannel/span_Test 123_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Chat_Mattermose_OR/Page_Mattermost/input_All team communication in one place, _dcc84b",
+      "brokenLocator": "//input[@id\u003d\u0027loginId\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027login_section\u0027]/div/div[2]/div/form/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Chat_Mattermose_OR/Page_Mattermost/input_All team communication in one place, _dcc84b_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Chat_Mattermose_OR/Page_Town Square - TOKEN Mattermost/span_Test 77777",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_test-77777\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Test 77777\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Chat_Mattermose_OR/Page_Town Square - TOKEN Mattermost/span_Test 77777_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/span_Delete",
+      "brokenLocator": "//li[@id\u003d\u0027delete_post_j9adojcpe7bapynfecxcco5cky\u0027]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ngoctin12345\u0027])[6]/preceding::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/span_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/div_ngoctin12345747 PM213154645",
+      "brokenLocator": "//*[@id \u003d \u0027post_m8wp3xxcgifr7kggz734ogp1ka\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027postListContent\u0027]/div/div[2]/div/div[11]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/div_ngoctin12345747 PM213154645_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Pin to Channel",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//li[@id\u003d\u0027pin_post_947745rotinbff747yofifz5yo\u0027]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Pin to Channel_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Pin to Channel",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Copy Link\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Pin to Channel_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Chat_Mattermose_OR/Page_Town Square - TOKEN Mattermost/span_Test 77777",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_test-77777\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Test 111223\u0027])[1]/preceding::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Chat_Mattermose_OR/Page_Town Square - TOKEN Mattermost/span_Test 77777_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test 77777",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_test-77777\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Test 111223\u0027])[1]/preceding::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test 77777_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ngoctin12345\u0027])[5]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.icon.icon--small \u003e svg",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/svg_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UpdateChannel/span_Edit Channel Header",
+      "brokenLocator": "//li[@id\u003d\u0027channelEditHeader\u0027]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[9]/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UpdateChannel/span_Edit Channel Header_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/input_First Name_firstName",
+      "brokenLocator": "//input[@id\u003d\u0027firstName\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027generalSettings\u0027]/div[2]/section/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/input_First Name_firstName_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UpdateChannel/span_Test 77777",
+      "brokenLocator": "//*[(text() \u003d \u0027Test 77777\u0027 or . \u003d \u0027Test 77777\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Test 111223\u0027])[1]/preceding::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UpdateChannel/span_Test 77777_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/div_TO",
+      "brokenLocator": "//a[@id\u003d\u0027fsdfsdfTeamButton\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/div_TO_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "g \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Edit",
+      "brokenLocator": "//button[@id\u003d\u0027usernameEdit\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div/div/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Edit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_",
+      "brokenLocator": "//div[@id\u003d\u0027accountSettingsHeader\u0027]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Help\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN Mattermost/div_TO",
+      "brokenLocator": "//a[@id\u003d\u0027fsdfsdfTeamButton\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN Mattermost/div_TO_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_",
+      "brokenLocator": "//div[@id\u003d\u0027accountSettingsHeader\u0027]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027addDirectChannel\u0027]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span__idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_test\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027+\u0027])[2]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Test - TOKEN_UPDATED Mattermost/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Test\u0027])[3]/following::*[name()\u003d\u0027svg\u0027][3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Drop a file to upload it.\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Test - TOKEN_UPDATED Mattermost/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/button_Account Settings",
+      "brokenLocator": "//li[@id\u003d\u0027accountSettings\u0027]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/button_Account Settings_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN Mattermost/span_Switch Channels",
+      "brokenLocator": "//button[@id\u003d\u0027sidebarSwitcherButton\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN Mattermost/span_Switch Channels_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN Mattermost/input_ESC_quickSwitchInput",
+      "brokenLocator": "//input[@id\u003d\u0027quickSwitchInput\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Town Square - TOKEN Mattermost/input_ESC_quickSwitchInput_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/div_ngoctin12345747 PM213154645",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ngoctin12345\u0027])[4]/following::div[19]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/div_ngoctin12345747 PM213154645_neighbor.png"
+    }
+  ]
+}
