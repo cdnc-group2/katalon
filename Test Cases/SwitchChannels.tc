@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SwitchChannels</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15a0aec6-cc7a-4f43-9735-9fe3173ea1b1</testCaseGuid>
+   <variable>
+      <defaultValue>'channel'</defaultValue>
+      <description></description>
+      <id>2d7b176a-9a0d-4f91-9b31-1223620cbd67</id>
+      <masked>false</masked>
+      <name>channel</name>
+   </variable>
+</TestCaseEntity>
