@@ -19,23 +19,52 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com/login')
+WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com/')
 
-WebUI.setText(findTestObject('UpdateChannel/input_All team communication in one place, _dcc84b'), 'ngoctin040999@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'ngoctin040999@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('UpdateChannel/input_All team communication in one place, _a3edc6'), 'S8w1SJvl7D1hts9IdMV+NQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'S8w1SJvl7D1hts9IdMV+NQ==')
 
-WebUI.sendKeys(findTestObject('UpdateChannel/input_All team communication in one place, _a3edc6'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('UpdateChannel/span_Test 77777'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Team Mattermost/span_Test 123'))
 
-WebUI.click(findTestObject('UpdateChannel/span_Test 77777_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/span_Test 123_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('UpdateChannel/span_Edit Channel Purpose (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/span_Edit Channel Purpose'))
 
-WebUI.setText(findTestObject('UpdateChannel/textarea_Test 77777_form-control no-resize'), 'dasdasdasasd')
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasdasdasasd'), '')
 
-WebUI.click(findTestObject('UpdateChannel/span_Save'))
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_Test 123_form-control no-resize'), 
+    'd')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_d'), 'da')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_da'), 'das')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_das'), 'dasd')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasd'), 'dasda')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasda'), 'dasdas')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasdas'), 'dasdasd')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasdasd'), 'dasdasda')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasdasda'), 'dasdasdas')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasdasdas'), 'dasdasdasd')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasdasdasd'), 'dasdasdasda')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasdasdasda'), 'dasdasdasdas')
+
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/textarea_dasdasdasdas'), 'dasdasdasdasd')
+
+WebUI.click(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/button_Save'))
 
 WebUI.closeBrowser()
 

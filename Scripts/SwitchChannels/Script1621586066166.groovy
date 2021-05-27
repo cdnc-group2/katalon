@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'ngoctin02806')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'ngoctin040999@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     'S8w1SJvl7D1hts9IdMV+NQ==')
@@ -31,6 +31,10 @@ WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN Mattermost/span_Switch Channels'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - TOKEN Mattermost/input_ESC_quickSwitchInput'), 'Test 111224')
+
+if (findTestObject('Object Repository/Page_Town Square - TOKEN Mattermost/span_Test 111224') == null) {
+	WebUI.closeBrowser()
+}
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN Mattermost/span_Test 111224'))
 

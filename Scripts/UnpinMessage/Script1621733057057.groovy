@@ -30,12 +30,21 @@ WebUI.setEncryptedText(findTestObject('Object Repository/DeleteMessage_OR/Page_M
 WebUI.sendKeys(findTestObject('Object Repository/DeleteMessage_OR/Page_Mattermost/input_All team communication in one place, _a3edc6'),
 	Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test 77777'))
+TestObject a = findTestObject('Object Repository/DeleteMessage_OR/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test 77777');
+TestObject b = findTestObject('Object Repository/FixElement/Page_Test 123 - Team Mattermost/div_Pinnedngoctin123451059 PMMessage');
+TestObject c = findTestObject('Object Repository/FixElement/Page_Test 123 - Team Mattermost/button_ngoctin12345_CENTER_button_cbnbttpn1ig5jg13jidu64xfbc');
+TestObject d = findTestObject('Object Repository/FixElement/Page_Test 123 - Team Mattermost/div_Pinnedngoctin123451059 PMMessage');
 
-WebUI.mouseOver(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/div_ngoctin12345747 PM213154645'))
+if(a != null && b != null && c != null && d != null) {
+	WebUI.click(a)
+	
+	WebUI.mouseOver(b)
+	
+	WebUI.click(c)
+	
+	WebUI.click(d)
+}
 
-WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/svg'))
 
-WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Pin to Channel'))
 
 WebUI.closeBrowser()

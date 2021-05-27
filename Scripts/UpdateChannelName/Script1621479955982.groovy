@@ -21,39 +21,22 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com/')
 
-WebUI.setText(findTestObject('Object Repository/Login_Mattermost_OR/input_All team communication in one place, _dcc84b'), 'ngoctin040999@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'ngoctin040999@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Login_Mattermost_OR/input_All team communication in one place, _a3edc6'), 'ngoctin1')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'S8w1SJvl7D1hts9IdMV+NQ==')
 
-WebUI.click(findTestObject('Object Repository/Login_Mattermost_OR/span_Sign in'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), Keys.chord(
+        Keys.ENTER))
 
-Thread.sleep(2000)
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Team Mattermost/span_Test 123'))
 
-WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Test 123'))
+WebUI.click(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/span_Test 123_channelHeaderDropdownIcon'))
 
-if (findTestObject('Object Repository/UpdateChannel/span_Edit Header for Test 123') == null) {
-	WebUI.closeBrowser();
-}
+WebUI.click(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/span_Rename Channel'))
 
-WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Test 123_channelHeaderDropdownIcon'))
+WebUI.setText(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/input_Display Name_display_name'), 'Test 123')
 
-WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Rename Channel'))
+WebUI.click(findTestObject('Object Repository/Page_Test 123 - Team Mattermost/span_Save'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/UpdateChannel/span_Rename Channel'), 0)
-
-WebUI.setText(findTestObject('Object Repository/UpdateChannel/input_Display Name_display_name'), 'Test 77777')
-
-WebUI.setText(findTestObject('Object Repository/UpdateChannel/input_httpscd.comfsdfsdfchannels_channel_name'), 'test-77777')
-
-WebUI.click(findTestObject('Object Repository/UpdateChannel/button_Save'))
-
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/UpdateChannel/label_Unable to update the channel'), 0, FailureHandling.OPTIONAL)) {
-	WebUI.closeBrowser()
-} else {
-	if (WebUI.getText(findTestObject('Object Repository/UpdateChannel/span_Test 123')) == 'Test 77777') {
-		WebUI.closeBrowser()
-	}
-}
-
-
-
+WebUI.closeBrowser()
