@@ -19,28 +19,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com/')
+WebUI.navigateToUrl('https://cdnc-group2.herokuapp.com/login')
 
-WebUI.setText(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+WebUI.setText(findTestObject('Object Repository/DeleteMessage_OR/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
     'ngoctin040999@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/DeleteMessage_OR/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     'S8w1SJvl7D1hts9IdMV+NQ==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.sendKeys(findTestObject('Object Repository/DeleteMessage_OR/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Town Square - TOKEN Mattermost/span_Test 77777'))
+WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test 77777'))
 
-ArrayList<String> data = CustomKeywords.'chatMessagePackage.ChatMessageDataTest.findChatTestMessage'('D:\\graduating-project\\advanced-subject-in-technology-software\\katalon\\DataTest\\ChatMessageDataTest.csv');
+WebUI.mouseOver(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/div_ngoctin12345747 PM213154645'))
 
-for (def rowNum = 0; rowNum < data.size(); rowNum++) {
-    WebUI.setText(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Test 77777 - TOKEN Mattermost/textarea_1'), 
-        data.get(rowNum))
+WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/svg'))
 
-    WebUI.sendKeys(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Test 77777 - TOKEN Mattermost/textarea_1'), 
-        Keys.chord(Keys.ENTER))
-}
+WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/span_Delete'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/span_Confirm Post Delete'), 0)
+
+WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Delete'))
 
 WebUI.closeBrowser()
 
