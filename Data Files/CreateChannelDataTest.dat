@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>41cb9ec8-ba47-4cc7-ac46-df59669b5186</dataFileGUID>
-   <dataSourceUrl>D:\graduating-project\advanced-subject-in-technology-software\katalon\DataTest\CreateRoomDataTest.csv</dataSourceUrl>
+   <dataSourceUrl>DataTest/CreateRoomDataTest.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>

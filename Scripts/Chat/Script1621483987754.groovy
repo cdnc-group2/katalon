@@ -32,7 +32,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Matterm
 
 WebUI.click(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Town Square - TOKEN Mattermost/span_Test 77777'))
 
-ArrayList<String> data = CustomKeywords.'chatMessagePackage.ChatMessageDataTest.findChatTestMessage'('D:\\graduating-project\\advanced-subject-in-technology-software\\katalon\\DataTest\\ChatMessageDataTest.csv');
+ArrayList<String> data = CustomKeywords.'chatMessagePackage.ChatMessageDataTest.findChatTestMessage'('DataTest\\ChatMessageDataTest.csv');
 
 for (def rowNum = 0; rowNum < data.size(); rowNum++) {
     WebUI.setText(findTestObject('Object Repository/Chat_Mattermose_OR/Page_Test 77777 - TOKEN Mattermost/textarea_1'), 

@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>21a8ac2f-e538-4cf1-ad6c-508994cd9a16</dataFileGUID>
-   <dataSourceUrl>D:\graduating-project\advanced-subject-in-technology-software\katalon\DataTest\ForgetPasswordDataTest.csv</dataSourceUrl>
+   <dataSourceUrl>DataTest/ForgetPasswordDataTest.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
