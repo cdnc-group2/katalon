@@ -27,7 +27,9 @@ WebUI.setText(findTestObject('Object Repository/Login_Mattermost_OR/input_All te
 
 WebUI.click(findTestObject('Object Repository/Login_Mattermost_OR/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Test 123'))
+if (findTestObject('Object Repository/UpdateChannel/span_Test 123') == null) {
+	WebUI.closeBrowser()
+}
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/UpdateChannel/span_Edit Header for Test 123'), 0, FailureHandling.OPTIONAL)
 

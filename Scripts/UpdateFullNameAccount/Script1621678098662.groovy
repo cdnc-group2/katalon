@@ -28,21 +28,19 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_A
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/svg'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Team Mattermost/span'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Team Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Team Mattermost/button_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/input_First Name_firstName'), 
-    'Tin')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - Team Mattermost/input_First Name_firstName'), 'Tin')
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/input_Last Name_lastName'), 
-    'Nguyen Ngoc')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - Team Mattermost/input_Last Name_lastName'), 'Nguyen Ngoc')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Team Mattermost/span_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Team Mattermost/button_Close'))
 
 WebUI.closeBrowser()
 

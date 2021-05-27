@@ -31,7 +31,9 @@ Thread.sleep(2000)
 
 WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Test 123'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/UpdateChannel/span_Edit Header for Test 123'), 0, FailureHandling.OPTIONAL)
+if (findTestObject('Object Repository/UpdateChannel/span_Edit Header for Test 123') == null) {
+	WebUI.closeBrowser();
+}
 
 WebUI.click(findTestObject('Object Repository/UpdateChannel/span_Test 123_channelHeaderDropdownIcon'))
 

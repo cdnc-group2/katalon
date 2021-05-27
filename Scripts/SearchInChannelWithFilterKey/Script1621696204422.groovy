@@ -28,6 +28,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_A
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
+if (findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test') == null) {
+	WebUI.closeBrowser();
+}
+
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test'))
 
 WebUI.click(findTestObject('Object Repository/Page_Test - TOKEN_UPDATED Mattermost/button_Test_channelHeaderSearchButton'))
@@ -36,6 +40,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Test - TOKEN_UPDATED Matter
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Test - TOKEN_UPDATED Mattermost/input_Test_searchBox'), Keys.chord(
         Keys.ENTER))
+
+if (findTestObject('Object Repository/Page_Test - TOKEN_UPDATED Mattermost/span_Jump') == null) {
+	WebUI.closeBrowser();
+}
 
 WebUI.click(findTestObject('Object Repository/Page_Test - TOKEN_UPDATED Mattermost/span_Jump'))
 

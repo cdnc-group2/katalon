@@ -53,10 +53,10 @@ if (WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/p_A chan
 } else {
 	switch (Type) {
 		case 'Public':
-			WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/a_test room'), 0)
+			WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/a_test room'), 0, FailureHandling.OPTIONAL)
 			break;
 		case 'Private':
-			WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/a_test room 1'), 0)
+			WebUI.verifyElementPresent(findTestObject('CreateRoom_Mattermose_OR/a_test room 1'), 0, FailureHandling.OPTIONAL)
 			break;
 	}
 	WebUI.closeBrowser()
