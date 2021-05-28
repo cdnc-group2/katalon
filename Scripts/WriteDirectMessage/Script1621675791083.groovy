@@ -28,7 +28,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_A
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
+if (findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_') == null) {
+	WebUI.closeBrowser()
+}
+
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_'))
+
+if (findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/div_Search and add members') == null) {
+	WebUI.closeBrowser()
+}
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/div_Search and add members'))
 

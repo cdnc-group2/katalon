@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED M
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/input_Team Description_teamDescription'), 
-    'TOKEN TEAM')
+    'TOKEN TEAM 123')
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Save'))
 

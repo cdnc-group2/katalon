@@ -38,6 +38,8 @@ TestObject d = findTestObject('Object Repository/FixElement/Page_Test 123 - Team
 if(a != null && b != null && c != null && d != null) {
 	WebUI.click(a)
 	
+	WebUI.scrollToPosition(50, 60)
+	
 	WebUI.mouseOver(b)
 	
 	WebUI.click(c)

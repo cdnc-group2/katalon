@@ -6,6 +6,10 @@
    <elementGuidId>4660de4b-263b-4ecf-928f-8c268cfc270a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Test 77777' or . = 'Test 77777')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='sidebarItem_test-77777']/span[2]/span</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#sidebarItem_test-77777 > span.sidebar-item__name > span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
