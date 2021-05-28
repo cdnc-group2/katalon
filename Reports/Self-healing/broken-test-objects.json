@@ -389,6 +389,106 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/ReplyMsgInDMs/Page_test1 - 123 Mattermost/textarea_lo la_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/button_ngoctin12345_CENTER_commentIcon_mwuwssogut8sxyezgdjbefz4sr",
+      "brokenLocator": "//button[@id\u003d\u0027CENTER_commentIcon_mwuwssogut8sxyezgdjbefz4sr\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Write to test1\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/button_ngoctin12345_CENTER_commentIcon_mwuwssogut8sxyezgdjbefz4sr_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/textarea_Add a comment_reply_textbox",
+      "brokenLocator": "//textarea[@id\u003d\u0027reply_textbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/textarea_Add a comment_reply_textbox_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/textarea_123",
+      "brokenLocator": "//textarea[@id\u003d\u0027reply_textbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ngoctin12345\u0027])[1]/following::textarea[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/textarea_123_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#CENTER_commentIcon_mwuwssogut8sxyezgdjbefz4sr \u003e span.d-flex.align-items-center \u003e span.icon.icon--small \u003e svg \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LeaveTeam/Page_Town Square - 123 Mattermost/div_12",
+      "brokenLocator": "//a[@id\u003d\u0027cdnc-gr-123TeamButton\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027+\u0027])[1]/preceding::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LeaveTeam/Page_Town Square - 123 Mattermost/div_12_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LeaveTeam/Page_Town Square - 123 Mattermost/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027@ngoctin02806\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027+\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LeaveTeam/Page_Town Square - 123 Mattermost/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UnpinMsgInDMs/Page_test1 - 123 Mattermost/span_Unpin from Channel",
+      "brokenLocator": "//li[@id\u003d\u0027unpin_post_4xttwiq7ktb45ctc1z5yoqj5ko\u0027]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Copy Link\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UnpinMsgInDMs/Page_test1 - 123 Mattermost/span_Unpin from Channel_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Register/a_Create one now",
+      "brokenLocator": "//a[@id\u003d\u0027signup\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sign in\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Register/a_Create one now_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Register/input_concat(What, , s your email address)_email",
+      "brokenLocator": "//input[@id\u003d\u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Register/input_concat(What, , s your email address)_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Reply",
+      "brokenLocator": "//div[@id\u003d\u0027CENTER_dropdown_947745rotinbff747yofifz5yo\u0027]/ul/li/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ngoctin12345\u0027])[5]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Reply_neighbor.png"
     }
   ]
 }

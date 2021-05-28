@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Run Iteration 2</name>
+   <name>Run all test cases</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>c69a560c-1219-4c6e-9b90-0c703efd4292</testSuiteGuid>
+   <testSuiteGuid>23e3e029-685c-4d0a-a8cb-d9e85ce45fb6</testSuiteGuid>
    <testCaseLink>
       <guid>82b43c29-fe15-429e-9c3b-f365c3eadf57</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -265,5 +265,65 @@
          <value>Email</value>
          <variableId>578e14b5-23c9-4cb0-ac9a-52d1cf9d8812</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bb909011-eefa-4911-b8c8-7a282c7f6b65</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DeleteMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6a20863-00a1-465f-9c72-7a8204a1720e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EditMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a31cdb6-c6cd-41dc-9bc3-20f92d374b6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd69daf9-ec05-4056-9cf1-e280469dcde7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main/TestcaseLeaveChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71ab0678-1ce9-4ae4-9ccf-053a5c331dad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main/TestCaseLeaveTeam</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8875ebbb-17bf-45cd-83a2-e284dcf29924</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main/TestcaseUnpinMsgInDMs</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58014685-5a2d-4d88-bd81-1384725dfaa5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MuteUnmuteChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c3439ea3-5b51-4dbe-81ca-5a65550a19cd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PinMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1fe6344-a4b1-4e82-9f79-a8592e757405</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Register</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00c4600d-dd30-4f3f-a861-8fe023115b1a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ReplyMessage</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

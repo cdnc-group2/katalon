@@ -21,11 +21,15 @@ WebUI.callTestCase(findTestCase('PreCondition/Login'), [:], FailureHandling.STOP
 
 WebUI.click(findTestObject('Object Repository/ReplyMsgInDMs/Page_Town Square - 123 Mattermost/span_test1'))
 
-TestObject btnReply = findTestObject('Object Repository/ReplyMsgInDMs/Page_test1 - 123 Mattermost/svg');
-TestObject inputReply = findTestObject('Object Repository/ReplyMsgInDMs/Page_test1 - 123 Mattermost/textarea_lo la');
-TestObject btnSubmitReply = findTestObject('Object Repository/ReplyMsgInDMs/Page_test1 - 123 Mattermost/input_Help_addCommentButton');
+TestObject divReceiver = findTestObject('Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/a_test1')
+TestObject divMsg = findTestObject('Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/div_ngoctin12345533 PMhello you')
+TestObject btnReply = findTestObject('Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/button_ngoctin12345_CENTER_commentIcon_5kpue6mexpfe8qwpf5u4gdp97e')
+TestObject inputReply = findTestObject('Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/textarea_123')
+TestObject btnSubmitReply = findTestObject('Object Repository/ReplyMsgInDMs/Page_test1 - TOKEN_UPDATED Mattermost/input_Help_addCommentButton')
 
-if(btnReply != null && inputReply != null && btnSubmitReply != null) { // already deleted
+if(divReceiver != null && divMsg != null && btnReply != null && inputReply != null && btnSubmitReply != null) { // already deleted
+	WebUI.click(divReceiver)
+	WebUI.mouseOver(divMsg)
 	WebUI.click(btnReply)
 	WebUI.setText(inputReply, 'reply 123')
 	WebUI.click(btnSubmitReply)
