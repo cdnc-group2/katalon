@@ -206,4 +206,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SearchInChannelWithFilterKey</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a23f4748-d5ae-4906-acdc-f67a8babf2b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CreateTeam</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>599b1b26-0ae1-4618-b04d-a9ad7bc5498c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DeleteMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e68c1155-d305-4fe0-8e8e-019cd9dd4b86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EditClockDiplsy</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>70bacb5b-ff20-47eb-aaf5-e8af4fff10b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EditMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1f2150b-2301-4934-b7a9-155ec15038c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EditSideBar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c805e7fc-3bc6-4178-aa51-093067d67974</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EditTheme</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1af03cfe-8af9-4abe-891d-9d7fe2d2099f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IgnoreMentions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>de229e91-9ce4-4bb2-87e0-8fadf3352856</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/InviteMember</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>28d70167-362a-47ad-b045-91656c2f9225</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bccde213-59af-4f42-ae06-2d917d08b577</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MuteUnmuteChannel</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
