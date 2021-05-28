@@ -31,6 +31,9 @@ WebUI.sendKeys(findTestObject('Object Repository/DeleteMessage_OR/Page_Mattermos
     Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Town Square - TOKEN_UPDATED Mattermost/span_Test 77777'))
+if(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/div_ngoctin12345747 PM213154645') == null) {
+	WebUI.closeBrowser()
+	}
 
 WebUI.mouseOver(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/div_ngoctin12345747 PM213154645'))
 
@@ -38,7 +41,15 @@ WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 -
 
 WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/span_Delete'))
 
+if(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/span_Confirm Post Delete') == null) {
+	WebUI.closeBrowser()
+}
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/span_Confirm Post Delete'), 0)
+
+if(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Delete') == null) {
+	WebUI.closeBrowser()
+}
 
 WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Delete'))
 

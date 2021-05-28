@@ -31,9 +31,22 @@ WebUI.click(findTestObject('UpdatePassword/button_Option'))
 
 WebUI.click(findTestObject('Update Member Role/button_Manage Members'))
 
+if(findTestObject('Update Member Role/button_Member') == null) {
+	WebUI.closeBrowser()
+}
+
 WebUI.click(findTestObject('Update Member Role/button_Member'))
 
+if(findTestObject('Update Member Role/button_Make Team Admin') == null) {
+	WebUI.closeBrowser()
+}
+
 WebUI.click(findTestObject('Update Member Role/button_Make Team Admin'))
+
+if(findTestObject('Update Member Role/span_Team Admin') == null) {
+	WebUI.closeBrowser()
+}
+
 
 WebUI.verifyElementVisible(findTestObject('Update Member Role/span_Team Admin'))
 

@@ -489,6 +489,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Reply_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Test - TOKEN_UPDATED Mattermost/span_Jump",
+      "brokenLocator": "//div[@id\u003d\u0027search-items-container\u0027]/div/div[2]/div[2]/div[2]/div/div[3]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027@ngoctin12345\u0027])[1]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Test - TOKEN_UPDATED Mattermost/span_Jump_neighbor.png"
     }
   ]
 }

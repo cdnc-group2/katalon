@@ -31,7 +31,5 @@ WebUI.click(findTestObject('Register/button_Create Account'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Register/h1_Mattermost'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.closeBrowser()
 

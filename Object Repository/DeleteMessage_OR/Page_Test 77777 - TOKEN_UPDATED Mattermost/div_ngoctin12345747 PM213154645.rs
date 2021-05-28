@@ -6,16 +6,16 @@
    <elementGuidId>8e393874-6c8c-4bef-866a-3e618c8b523e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='post_m8wp3xxcgifr7kggz734ogp1ka']</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'a11y__section post cursor--pointer  other--root  current--user' and (text() = 'ngoctin123457:47 PM213154645' or . = 'ngoctin123457:47 PM213154645')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#post_m8wp3xxcgifr7kggz734ogp1ka</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='post_m8wp3xxcgifr7kggz734ogp1ka']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <value>listitem</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -70,15 +70,15 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>not equal</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>ngoctin123457:47 PM213154645</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>not equal</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;post_m8wp3xxcgifr7kggz734ogp1ka&quot;)</value>

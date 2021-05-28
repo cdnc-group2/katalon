@@ -1,0 +1,63 @@
+{"testCaseName":"Test Cases/Chat","testCaseId":"Test Cases/Chat"}
+{"testCaseName":"Test Cases/Login - Iteration 1","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027ngoctin040999@gmail.com\u0027","Password":"\u0027ngoctin1\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 2","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027ngoctin040999\u0027","Password":"\u0027ngoctin1\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 3","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027testing123@gmail.com\u0027","Password":"\u0027test12\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 4","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027admin\u0027","Password":"\u0027admin\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 5","testCaseId":"Test Cases/Login","bindedValues":{"Username":"\u0027admin@outlook.com\u0027","Password":"\u0027123456789\u0027"}}
+{"testCaseName":"Test Cases/InviteMember","testCaseId":"Test Cases/InviteMember"}
+{"testCaseName":"Test Cases/UpdateFullNameAccount","testCaseId":"Test Cases/UpdateFullNameAccount"}
+{"testCaseName":"Test Cases/UpdateMemberRole","testCaseId":"Test Cases/UpdateMemberRole"}
+{"testCaseName":"Test Cases/UpdateUsernameAccount","testCaseId":"Test Cases/UpdateUsernameAccount"}
+{"testCaseName":"Test Cases/EditClockDiplsy","testCaseId":"Test Cases/EditClockDiplsy"}
+{"testCaseName":"Test Cases/EditSideBar","testCaseId":"Test Cases/EditSideBar"}
+{"testCaseName":"Test Cases/EditTheme","testCaseId":"Test Cases/EditTheme"}
+{"testCaseName":"Test Cases/IgnoreMentions","testCaseId":"Test Cases/IgnoreMentions"}
+{"testCaseName":"Test Cases/UpdateChannelName","testCaseId":"Test Cases/UpdateChannelName"}
+{"testCaseName":"Test Cases/UpdateDescriptionChannel","testCaseId":"Test Cases/UpdateDescriptionChannel"}
+{"testCaseName":"Test Cases/UpdatePurposeChannel","testCaseId":"Test Cases/UpdatePurposeChannel"}
+{"testCaseName":"Test Cases/UpdateTeamDescription","testCaseId":"Test Cases/UpdateTeamDescription"}
+{"testCaseName":"Test Cases/UpdateTeamName","testCaseId":"Test Cases/UpdateTeamName"}
+{"testCaseName":"Test Cases/SwitchChannels","testCaseId":"Test Cases/SwitchChannels"}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 1","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Public\u0027","ChannelName":"\u0027Test 123\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 1\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 2","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Private\u0027","ChannelName":"\u0027Test 456\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 1\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 3","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Private\u0027","ChannelName":"\u0027Test 4474\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 1\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 4","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Public\u0027","ChannelName":"\u0027Test 111223\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 2\u0027"}}
+{"testCaseName":"Test Cases/CreateRoom - Iteration 5","testCaseId":"Test Cases/CreateRoom","bindedValues":{"Type":"\u0027Public\u0027","ChannelName":"\u0027Test 111224\u0027","Description":"\u0027Test Description\u0027","Purpose":"\u0027Data test 3\u0027"}}
+{"testCaseName":"Test Cases/CreateTeam","testCaseId":"Test Cases/CreateTeam"}
+{"testCaseName":"Test Cases/Main/TestcaseAddDMsToFavorites","testCaseId":"Test Cases/Main/TestcaseAddDMsToFavorites"}
+{"testCaseName":"Test Cases/Main/TestCaseCreateDirectMessages","testCaseId":"Test Cases/Main/TestCaseCreateDirectMessages"}
+{"testCaseName":"Test Cases/Main/TestCaseCreateMsgInDMs","testCaseId":"Test Cases/Main/TestCaseCreateMsgInDMs"}
+{"testCaseName":"Test Cases/Main/TestcaseDeleteMsgInDMs","testCaseId":"Test Cases/Main/TestcaseDeleteMsgInDMs"}
+{"testCaseName":"Test Cases/Main/TestcaseEditMsgInDMs","testCaseId":"Test Cases/Main/TestcaseEditMsgInDMs"}
+{"testCaseName":"Test Cases/Main/TestcaseMarkUnreadMsgInDMs","testCaseId":"Test Cases/Main/TestcaseMarkUnreadMsgInDMs"}
+{"testCaseName":"Test Cases/Main/TestCasePinMsgInDMs","testCaseId":"Test Cases/Main/TestCasePinMsgInDMs"}
+{"testCaseName":"Test Cases/Main/TestCaseReactMsgInDMs","testCaseId":"Test Cases/Main/TestCaseReactMsgInDMs"}
+{"testCaseName":"Test Cases/Main/TestCaseReplyMsgInDMs","testCaseId":"Test Cases/Main/TestCaseReplyMsgInDMs"}
+{"testCaseName":"Test Cases/Main/TestCaseSaveMsgInDMs","testCaseId":"Test Cases/Main/TestCaseSaveMsgInDMs"}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 1","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027ngoctin040999@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 2","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027test123@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 3","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027test456\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 4","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027mail@example.com\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 5","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027mailadmin\u0027"}}
+{"testCaseName":"Test Cases/ForgetPassword - Iteration 6","testCaseId":"Test Cases/ForgetPassword","bindedValues":{"Email":"\u0027token_test\u0027"}}
+{"testCaseName":"Test Cases/DeleteMessage","testCaseId":"Test Cases/DeleteMessage"}
+{"testCaseName":"Test Cases/EditMessage","testCaseId":"Test Cases/EditMessage"}
+{"testCaseName":"Test Cases/Logout","testCaseId":"Test Cases/Logout"}
+{"testCaseName":"Test Cases/PinMessage","testCaseId":"Test Cases/PinMessage"}
+{"testCaseName":"Test Cases/Main/TestcaseUnpinMsgInDMs","testCaseId":"Test Cases/Main/TestcaseUnpinMsgInDMs"}
+{"testCaseName":"Test Cases/MuteUnmuteChannel","testCaseId":"Test Cases/MuteUnmuteChannel"}
+{"testCaseName":"Test Cases/SearchInChannelWithMentionText","testCaseId":"Test Cases/SearchInChannelWithMentionText"}
+{"testCaseName":"Test Cases/Register","testCaseId":"Test Cases/Register"}
+{"testCaseName":"Test Cases/ReplyMessage","testCaseId":"Test Cases/ReplyMessage"}
+{"testCaseName":"Test Cases/SearchInChannelWithFilterGUI","testCaseId":"Test Cases/SearchInChannelWithFilterGUI"}
+{"testCaseName":"Test Cases/SearchInChannelWithFilterKey","testCaseId":"Test Cases/SearchInChannelWithFilterKey"}
+{"testCaseName":"Test Cases/WriteDirectMessage","testCaseId":"Test Cases/WriteDirectMessage"}
+{"testCaseName":"Test Cases/SearchInChannelWithNormalText","testCaseId":"Test Cases/SearchInChannelWithNormalText"}
+{"testCaseName":"Test Cases/SearchInChannelWithSpecialChar","testCaseId":"Test Cases/SearchInChannelWithSpecialChar"}
+{"testCaseName":"Test Cases/SearchInChannelWithTextHaveSpace","testCaseId":"Test Cases/SearchInChannelWithTextHaveSpace"}
+{"testCaseName":"Test Cases/UnpinMessage","testCaseId":"Test Cases/UnpinMessage"}
+{"testCaseName":"Test Cases/ViewChannelInfo","testCaseId":"Test Cases/ViewChannelInfo"}
+{"testCaseName":"Test Cases/Main/TestcaseLeaveChannel","testCaseId":"Test Cases/Main/TestcaseLeaveChannel"}
+{"testCaseName":"Test Cases/Main/TestCaseLeaveTeam","testCaseId":"Test Cases/Main/TestCaseLeaveTeam"}
+{"testCaseName":"Test Cases/RemoveMember","testCaseId":"Test Cases/RemoveMember"}
+{"testCaseName":"Test Cases/ChangePassword","testCaseId":"Test Cases/ChangePassword"}

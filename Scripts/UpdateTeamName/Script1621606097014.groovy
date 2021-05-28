@@ -28,8 +28,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_A
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN Mattermost/div_TO'))
-
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN Mattermost/button_ngoctin02806_style--none sidebar-hea_8af0e1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TOKEN Mattermost/button_Team Settings'))

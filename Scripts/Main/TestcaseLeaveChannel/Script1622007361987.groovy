@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('PreCondition/Login'), [:], FailureHandling.STOP
 WebUI.click(findTestObject('Object Repository/Leave Channel/Page_Town Square - 123 Mattermost/span_hello'))
 
 System.out.println(findTestObject('Object Repository/Leave Channel/Page_hello - 123 Mattermost/span_hello_channelHeaderDropdownIcon'));
-WebUI.click()
+WebUI.click(findTestObject('Object Repository/Leave Channel/Page_hello - 123 Mattermost/span_hello_channelHeaderDropdownIcon'))
 
 WebUI.click(findTestObject('Object Repository/Leave Channel/Page_hello - 123 Mattermost/span_Leave Channel'))
 

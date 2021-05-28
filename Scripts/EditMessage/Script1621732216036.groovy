@@ -36,6 +36,14 @@ WebUI.mouseOver(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 777
 
 WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/svg'))
 
+System.out.print(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Edit'))
+
+if(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Edit') == null) {
+	WebUI.closeBrowser()
+}
+
+System.out.print(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Edit'))
+
 WebUI.click(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/button_Edit'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/DeleteMessage_OR/Page_Test 77777 - TOKEN_UPDATED Mattermost/span_Edit Post'), 0)
