@@ -1,0 +1,94 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Update Member Role/button_Member",
+      "brokenLocator": "//button[@id\u003d\u0027teamMembersDropdown_test1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027@test1\u0027])[3]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/Update Member Role/button_Member_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - Team Mattermost/span_Test 123",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_test-123\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027+\u0027])[2]/following::span[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/Page_Town Square - Team Mattermost/span_Test 123_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/div_TO",
+      "brokenLocator": "//a[@id\u003d\u0027fsdfsdfTeamButton\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TOKEN_UPDATED\u0027])[1]/following::div[11]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/div_TO_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "g \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Edit",
+      "brokenLocator": "//button[@id\u003d\u0027usernameEdit\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div/div/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/Page_Town Square - TOKEN_UPDATED Mattermost/span_Edit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Town Square - Thanh Tien test Mattermost/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027@ngoctin02806\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027More Unreads\u0027])[1]/preceding::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/Page_Town Square - Thanh Tien test Mattermost/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SaveMsgInDMs/Page_Town Square - 123 Mattermost/span_test1",
+      "brokenLocator": "//a[@id\u003d\u0027sidebarItem_jhu7o6ikc7n49jwsmusnszmefe__tto3zmi1cpbtfqcc4xr8cjdcbw\u0027]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027DIRECT MESSAGES\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/SaveMsgInDMs/Page_Town Square - 123 Mattermost/span_test1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ReplyMsgInDMs/Page_test1 - 123 Mattermost/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ngoctin02806\u0027])[50]/following::*[name()\u003d\u0027svg\u0027][4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027(edited)\u0027])[1]/preceding::*[name()\u003d\u0027svg\u0027][2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/ReplyMsgInDMs/Page_test1 - 123 Mattermost/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ReplyMsgInDMs/Page_test1 - 123 Mattermost/textarea_lo la",
+      "brokenLocator": "//textarea[@id\u003d\u0027reply_textbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027**bold**\u0027])[1]/preceding::textarea[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210528_173936/Run Interation 2/20210528_173936/Object Repository/ReplyMsgInDMs/Page_test1 - 123 Mattermost/textarea_lo la_neighbor.png"
+    }
+  ]
+}
